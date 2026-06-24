@@ -132,6 +132,39 @@ p{
     
 }
 
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    padding-top: 10px;
+}
+
+.project-card{
+    width: 280px;
+    background: linear-gradient(135deg, #0f3d2e, #1b4332);
+    color: #d4af37;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    
+    
+}
+
+.project-card h3{
+    color: #d4af37;
+    margin-bottom: 10px;
+    font-size: 30PX;
+    font-weight: bold;
+}
+
+.project-card p{
+    color: #f5e9d3;
+    font-size: 20px;
+}
+
+
 .info{
     text-align: center;
     color:#3d3d3d;
@@ -158,6 +191,25 @@ p{
 
 .dark-mode .skills li{
     background: #333;
+}
+
+.links{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.links a{
+    
+    background-color: #1b4332;
+    color: #d4af37;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 @media(max-width:768px)
