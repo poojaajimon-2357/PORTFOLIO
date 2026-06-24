@@ -27,9 +27,19 @@ nav ul{
 }
 
 a{
-    text-decoration: #1b4332;
-    color: #8a6d1d;
+    text-decoration: none;
+    color:#d4af37;
+    font-weight: bold;
 }
+button{
+    background-color: #d4af37;
+    color: #1b4332;
+    padding: 12px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 
 .sec1{
     background: linear-gradient(135deg, #0f3d2e, #1b4332);
@@ -43,11 +53,18 @@ a{
     
 
 }
+.tagline{
+    color: rgba(255,255,255,0.8);
+    font-size: 15px;
+    font-weight:bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
 .sec1 h1{
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     font-size: 80px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 90px;
      margin-top:10px;
-    color:#d4af37;
+     color:#d4af37;
 }
 .sec1 h2{
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
