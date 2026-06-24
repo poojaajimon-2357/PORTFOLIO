@@ -24,6 +24,7 @@ nav ul{
     display: flex;
     justify-content: center;
     gap: 50px;
+    list-style: none;
 }
 
 a{
@@ -49,7 +50,8 @@ button{
     padding: 15px;
     padding-top: 100px;
     padding-bottom: 100px;
-    gap: 100px;
+    
+    gap: 50px;
     
 
 }
@@ -62,13 +64,13 @@ button{
 }
 .sec1 h1{
      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     font-size: 90px;
+     font-size: 50px;
      margin-top:10px;
      color:#d4af37;
 }
 .sec1 h2{
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      font-size:55px; 
+      font-size:28px; 
        color:#f5e9d3;
 }
 p{
@@ -91,6 +93,11 @@ p{
     justify-content: center;
     align-items: center;
 
+}
+ .right img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
 }
 .sec2{
     text-align: center;
@@ -128,6 +135,29 @@ p{
 .info{
     text-align: center;
     color:#3d3d3d;
+}
+
+.dark-mode{
+    background: #121212;
+    color: white;
+}
+
+.dark-mode header{
+    background: #000;
+}
+
+.dark-mode .abt{
+    background: #222;
+    color: #d4af37;
+}
+
+.dark-mode .sec2,
+.dark-mode .info{
+    color: white;
+}
+
+.dark-mode .skills li{
+    background: #333;
 }
 
 @media(max-width:768px)

@@ -20,6 +20,7 @@
             </ul>
 
             <button>GET STARTED</button>
+            <button  onclick="modechange()"> MODE</button>
         </nav>
     </header>
 
@@ -31,7 +32,7 @@
     <p> Passionate about technology, problem-solving, and creating innovative solutions through programming and web development.</p>
     </div>
     <div class="right">
-    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/is_web_development_good_career.jpg" alt="picture not avilable" height="300" width="600">
+    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/is_web_development_good_career.jpg" alt="picture not avilable" height="300" width="400">
     </div>
     </section>
 
@@ -69,7 +70,7 @@
 
     <section class="info" id="info">
     <H2 class="abt">CONTACT</H2>
-    <form action="">
+    <form action="" onsubmit="fillform()">
         <label for="name">NAME:</label>
         <input type="text" id="name" name="name">
         <br>
@@ -77,9 +78,11 @@
         <label for="email">EMAIL:</label>
         <input type="email" id="email" name="email" ><br>
         <br>
-        <button>Submit</button>
+         <button type="submit">Submit</button>
         <br>
     </form>
     </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
