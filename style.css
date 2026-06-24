@@ -3,8 +3,8 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     line-height: 1.4;
-   color: #2b2b2b;
-    background: #f8f4ec;
+    color: #2b2b2b;
+    background: #f0eeee;
     box-sizing: border-box;
 }
 
@@ -44,7 +44,7 @@ button{
 
 .sec1{
     background: linear-gradient(135deg, #0f3d2e, #1b4332);
-    color:#f5e9d3;
+    color:blue;
     display: flex;
     flex-direction: row;
     padding: 15px;
