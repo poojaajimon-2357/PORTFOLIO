@@ -44,7 +44,7 @@ button{
 
 .sec1{
     background: linear-gradient(135deg, #0f3d2e, #1b4332);
-    color:blue;
+    color:white;
     display: flex;
     flex-direction: row;
     padding: 15px;
